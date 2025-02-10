@@ -1,0 +1,37 @@
+<!-- Build an HTML page with multiple paragraphs, each assigned a unique class name. Write CSS rules using class selectors to apply distinct styling to each paragraph. Follow the BEM naming convention and explain how you've named the classes. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BEM</title>
+    <style>
+      /* Style for paragraph with class "para-one" */
+      .para-one {
+        color: blue;
+        font-weight: bold;
+        text-align: center;
+      }
+
+      /* Style for paragraph with class "para-two" */
+      .para-two {
+        background-color: lightgray;
+        font-style: italic;
+        padding: 10px;
+      }
+
+      /* Style for paragraph with class "para-three" */
+      .para-three {
+        border: 2px solid green;
+        text-decoration: underline;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="para-one">This is the first paragraph.</p>
+    <p class="para-two">This is the second paragraph.</p>
+    <p class="para-three">This is the third paragraph.</p>
+  </body>
+</html>
